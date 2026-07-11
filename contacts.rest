@@ -9,3 +9,30 @@ GET https://cse341-contacts-api-cjme.onrender.com/contacts
 
 ###
 GET https://cse341-contacts-api-cjme.onrender.com/contacts/6a4e43a9e9e2fb772f5199a6
+
+### Creating a new contact (local)
+POST http://localhost:3000/contacts
+Content-Type: application/json
+
+{
+  "firstName": "Test",
+  "lastName": "User",
+  "email": "test.user@example.com",
+  "favoriteColor": "Green",
+  "birthday": "1999-05-20"
+}
+
+### Updates a contact (local)
+PUT http://localhost:3000/contacts/6a5237e814007c5298d4d6b9
+Content-Type: application/json
+
+{
+  "firstName": "Test",
+  "lastName": "UserUpdated",
+  "email": "test.updated@example.com",
+  "favoriteColor": "Purple",
+  "birthday": "1999-05-20"
+}
+
+### Deletes a contact (local)
+DELETE http://localhost:3000/contacts/6a5237e814007c5298d4d6b9
