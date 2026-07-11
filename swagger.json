@@ -6,9 +6,8 @@
     "version": "1.0.0"
   },
   "host": "cse341-contacts-api-cjme.onrender.com",
-  "basePath": "/",
+  "basePath": "",
   "schemes": [
-    "http",
     "https"
   ],
   "paths": {

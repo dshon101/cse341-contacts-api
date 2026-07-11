@@ -6,7 +6,8 @@ const doc = {
     description: 'API for storing and retrieving contact information.',
   },
   host: 'cse341-contacts-api-cjme.onrender.com',
-  schemes: ['http', 'https'],
+  basePath: '',
+  schemes: ['https'],
 };
 
 const outputFile = './swagger.json';
