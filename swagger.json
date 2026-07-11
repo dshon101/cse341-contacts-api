@@ -5,7 +5,7 @@
     "description": "API for storing and retrieving contact information.",
     "version": "1.0.0"
   },
-  "host": "cse341-contacts-api-cjme.onrender.com/",
+  "host": "cse341-contacts-api-cjme.onrender.com",
   "basePath": "/",
   "schemes": [
     "http",

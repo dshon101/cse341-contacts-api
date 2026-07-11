@@ -5,7 +5,7 @@ const doc = {
     title: 'Contacts API',
     description: 'API for storing and retrieving contact information.',
   },
-  host: 'cse341-contacts-api-cjme.onrender.com/',
+  host: 'cse341-contacts-api-cjme.onrender.com',
   schemes: ['http', 'https'],
 };
 
