@@ -1,0 +1,11 @@
+### Local tests
+GET http://localhost:3000/contacts
+
+###
+GET http://localhost:3000/contacts/6a4e43a9e9e2fb772f5199a6
+
+### Render (deployed) tests
+GET https://cse341-contacts-api-cjme.onrender.com/contacts
+
+###
+GET https://cse341-contacts-api-cjme.onrender.com/contacts/6a4e43a9e9e2fb772f5199a6
